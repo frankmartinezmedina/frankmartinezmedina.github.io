@@ -7,12 +7,115 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Frank M. M. Portfolio</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nav</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron text-center rounded-0 bg-dark text-light">
+      <div class="container">
+        <h1 class="font-weight-bolder">Frank Martinez Medina</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero minima quas alias architecto quasi dolore, dolor at vel quae illum consequuntur!</p>
+      </div>
+    </div>
+
+    <!-- BIO -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="img/frank.jpg" class="rounded-circle img-fluid" alt="Frank Medina Photo">
+        </div>
+        <div class="col-8">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero minima quas alias architecto quasi dolore, dolor at vel quae illum consequuntur dolores necessitatibus cumque nulla, eaque ipsam ad autem!
+          Itaque autem ducimus deleniti est sunt alias molestias, porro quas velit consequuntur necessitatibus, esse dolore numquam, delectus excepturi non earum quaerat consectetur libero nostrum. Quod modi neque nam consequatur ea.
+          Blanditiis laudantium quos illo quo perspiciatis tenetur molestias veritatis quisquam doloribus, fugiat eius ducimus voluptates. Error sed odit dolorem excepturi dolorum, aliquam quod. Dignissimos soluta ullam neque sint sapiente voluptas!
+          Ab laborum tempora obcaecati deserunt quo modi, et libero id eveniet totam illum debitis nulla error natus officiis dolorum minima. Cupiditate voluptates exercitationem minima aliquam iure, aliquid at tempore a!
+          A debitis consequatur, laudantium eos voluptatum deleniti est nisi ab. Dolorum quisquam totam sint neque ullam, nulla iure animi aspernatur quas iste voluptas quam eligendi itaque accusamus aut optio tempore.
+          Maxime id in a amet nihil aliquam exercitationem rerum velit veritatis quae, est, laudantium quaerat molestiae harum vero! Dolorum quisquam totam sint neque ullam, nulla iure animi aspernatur quas iste voluptas quam eligendi itaque accusamus aut optio tempore.
+          Maxime id in a amet nihil aliquam exercitationem rerum velit veritatis quae, est, laudantium quaerat molestiae harum vero!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="container">
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Websites for Beginners <span class="text-muted">Final Project</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore debitis accusantium pariatur, deserunt laborum assumenda repudiandae recusandae fugit fugiat quasi sunt, amet sequi officia! Corporis repellendus optio rem deleniti ad.</p>
+        </div>
+        <div class="col-md-5">
+          <a href="https://frankmartinezmedina.github.io/final-project/" target="_blank"><img src="img/w4b-final.png" class="img-fluid" alt="Final Project Screenshot"></a>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Online Marketing Apprenticeship <span class="text-muted">ad 1</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore debitis accusantium pariatur, deserunt laborum assumenda repudiandae recusandae fugit fugiat quasi sunt, amet sequi officia! Corporis repellendus optio rem deleniti ad.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/ad_1.png" class="img-fluid" alt="Frank Medina Photo">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Online Marketing Apprenticeship <span class="text-muted">ad 2</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore debitis accusantium pariatur, deserunt laborum assumenda repudiandae recusandae fugit fugiat quasi sunt, amet sequi officia! Corporis repellendus optio rem deleniti ad.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/ad_2.png" class="img-fluid" alt="Frank Medina Photo">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+    </div>
+
+      <!-- FOOTER -->
+      <footer class="container bg-dark text-light">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+      
+
 
   
 
